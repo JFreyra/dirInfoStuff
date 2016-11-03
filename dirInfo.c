@@ -41,4 +41,8 @@ void main(){
   printf("directories:\n   %s\n",directories);
   printf("regfiles:\n   %s\n",regfiles);
   
+  free(directories);
+  free(regfiles);
+
+  return;
 }
